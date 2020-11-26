@@ -1,9 +1,9 @@
-# This repository is a manifest for LOS-based Pie trees for Crackling.
+# This repository is a manifest for LOS-based Pie trees for Seed.
 
 ## To get trees using this manifest
 In ROM folder before syncing ROM sources...
 ```
-git clone https://www.github.com/windowzytch/crackling_pie_manifests.git .repo/local_manifests
+git clone https://www.github.com/windowzytch/seed_pie_manifests.git .repo/local_manifests
 repo sync --fail-fast --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -jX
 ```
 X=Number of CPU threads
