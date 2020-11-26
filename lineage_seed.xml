@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="devotag"
+           fetch="https://github.com/DevOtag-Open-Source/"
+           revision="pie" />
+
+
+  <!-- KERNEL
+  #####################################################-->
+  <project name="android_kernel_google_seed" path="kernel/google/seed" remote="devotag" />
+
+  <!-- DEVICE TREES
+  #####################################################-->
+  <project name="android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="devotag" />
+  <project name="android_device_google_seed" path="device/google/seed" remote="devotag" />
+  
+  <!-- VENDOR
+  #####################################################-->
+  <project name="android_vendor_google" path="vendor/google" remote="devotag" />
+
+</manifest>
